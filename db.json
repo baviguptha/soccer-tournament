@@ -1,0 +1,340 @@
+{
+  "country": [
+    {
+      "id": 2,
+      "country": "Brazil",
+      "ranking": 9
+    },
+    {
+      "country": "Qatar",
+      "ranking": 1,
+      "id": 3
+    },
+    {
+      "country": "Qatar",
+      "ranking": 151,
+      "id": 4
+    },
+    {
+      "country": "Brazil",
+      "ranking": 2,
+      "id": 5
+    },
+    {
+      "country": "Brazil",
+      "ranking": 4,
+      "id": 6
+    },
+    {
+      "country": "Brazil",
+      "ranking": 1,
+      "id": 7
+    },
+    {
+      "id": 8,
+      "country": "Wales",
+      "ranking": 145
+    }
+  ],
+  "player": [
+    {
+      "id": 1,
+      "firstname": "grtr",
+      "lastname": "fdsaf",
+      "dob": "23/03/1987",
+      "country": "Brazil"
+    },
+    {
+      "firstname": "dsf",
+      "lastname": "fdsaf",
+      "dob": "fdsaf",
+      "country": "Qatar",
+      "id": 2
+    }
+  ],
+  "admin": [
+    {
+      "country": "Argentina",
+      "bracket": "Semi-final",
+      "goal": "1",
+      "point": "1",
+      "id": 5
+    },
+    {
+      "country": "Qatar",
+      "bracket": "Round of 16",
+      "goal": "fdsaf",
+      "point": "1",
+      "id": 6
+    },
+    {
+      "country": "Qatar",
+      "bracket": "Round of 16",
+      "goal": "1",
+      "point": "3",
+      "id": 7
+    },
+    {
+      "country": "England",
+      "bracket": "Semi-final",
+      "goal": "1",
+      "point": "1",
+      "id": 8
+    },
+    {
+      "country": "Argentina",
+      "bracket": "Semi-final",
+      "goal": "1",
+      "point": "1",
+      "id": 9
+    },
+    {
+      "country": "Qatar",
+      "bracket": "Round of 16",
+      "goal": "1",
+      "point": "4",
+      "id": 10
+    },
+    {
+      "country": "Brazil",
+      "bracket": "Semi-final",
+      "goal": "1",
+      "point": "5",
+      "id": 11
+    }
+  ],
+  "brackets": [
+    {
+      "country": "England",
+      "ranking": 1,
+      "goal": 2,
+      "point": 1,
+      "bracket": 16,
+      "id": 1
+    },
+    {
+      "country": "Belgium",
+      "ranking": 2,
+      "goal": 3,
+      "point": 2,
+      "bracket": "R16",
+      "id": 2
+    },
+    {
+      "country": "Spain",
+      "ranking": 3,
+      "goal": 2,
+      "point": 1,
+      "bracket": "R16",
+      "id": 3
+    },
+    {
+      "country": "France",
+      "ranking": 4,
+      "goal": 3,
+      "point": 2,
+      "bracket": "R16",
+      "id": 4
+    },
+    {
+      "country": "Qatar",
+      "ranking": 5,
+      "goal": 2,
+      "point": 1,
+      "bracket": "R16",
+      "id": 5
+    },
+    {
+      "country": "Brazil",
+      "ranking": 6,
+      "goal": 3,
+      "point": 2,
+      "bracket": "R16",
+      "id": 6
+    },
+    {
+      "country": "Argentina",
+      "ranking": 7,
+      "goal": 2,
+      "point": 1,
+      "bracket": "R16",
+      "id": 7
+    },
+    {
+      "country": "Portugal",
+      "ranking": 8,
+      "goal": 3,
+      "point": 2,
+      "bracket": "R16",
+      "id": 8
+    },
+    {
+      "country": "Mexico",
+      "ranking": 9,
+      "goal": 2,
+      "point": 1,
+      "bracket": "R16",
+      "id": 9
+    },
+    {
+      "country": "Netherlands",
+      "ranking": 10,
+      "goal": 3,
+      "point": 2,
+      "bracket": "R16",
+      "id": 10
+    },
+    {
+      "country": "Denmark",
+      "ranking": 11,
+      "goal": 2,
+      "point": 1,
+      "bracket": "R16",
+      "id": 11
+    },
+    {
+      "country": "Germany",
+      "ranking": 12,
+      "goal": 3,
+      "point": 2,
+      "bracket": "R16",
+      "id": 12
+    },
+    {
+      "country": "Uruguay",
+      "ranking": 13,
+      "goal": 2,
+      "point": 1,
+      "bracket": "R16",
+      "id": 13
+    },
+    {
+      "country": "Switzerland",
+      "ranking": 14,
+      "goal": 3,
+      "point": 2,
+      "bracket": "R16",
+      "id": 14
+    },
+    {
+      "country": "Canada",
+      "ranking": 15,
+      "goal": 2,
+      "point": 1,
+      "bracket": "R16",
+      "id": 15
+    },
+    {
+      "country": "Australia",
+      "ranking": 16,
+      "goal": 3,
+      "point": 2,
+      "bracket": "R16",
+      "id": 16
+    }
+  ],
+  "quarterfinal": [
+    {
+      "country": "England",
+      "ranking": "1",
+      "goal": 2,
+      "point": 1,
+      "id": 1
+    },
+    {
+      "country": "Belgium",
+      "ranking": "2",
+      "goal": 3,
+      "point": 2,
+      "id": 2
+    },
+    {
+      "country": "Spain",
+      "ranking": "3",
+      "goal": 2,
+      "point": 1,
+      "id": 3
+    },
+    {
+      "country": "France",
+      "ranking": "4",
+      "goal": 3,
+      "point": 2,
+      "id": 4
+    },
+    {
+      "country": "Qatar",
+      "ranking": "5",
+      "goal": 2,
+      "point": 1,
+      "id": 5
+    },
+    {
+      "country": "Brazil",
+      "ranking": "6",
+      "goal": 3,
+      "point": 2,
+      "id": 6
+    },
+    {
+      "country": "Argentina",
+      "ranking": "7",
+      "goal": 2,
+      "point": 1,
+      "id": 7
+    },
+    {
+      "country": "Portugal",
+      "ranking": "8",
+      "goal": 3,
+      "point": 2,
+      "id": 8
+    }
+  ],
+  "semifinal": [
+    {
+      "country": "England",
+      "ranking": "1",
+      "goal": 2,
+      "point": 1,
+      "id": 1
+    },
+    {
+      "country": "Belgium",
+      "ranking": "2",
+      "goal": 3,
+      "point": 2,
+      "id": 2
+    },
+    {
+      "country": "Spain",
+      "ranking": "3",
+      "goal": 2,
+      "point": 1,
+      "id": 3
+    },
+    {
+      "country": "France",
+      "ranking": "4",
+      "goal": 3,
+      "point": 2,
+      "id": 4
+    }
+  ],
+  "final": [
+    {
+      "country": "England",
+      "ranking": "1",
+      "goal": 2,
+      "point": 1,
+      "id": 1
+    },
+    {
+      "country": "France",
+      "ranking": "4",
+      "goal": 3,
+      "point": 2,
+      "id": 4
+    }
+  ]
+}
