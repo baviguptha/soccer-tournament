@@ -1,0 +1,40 @@
+
+section {
+    float: left;
+    width: 280px;
+    background-color: #ccc;
+    margin-right: 34px;
+    max-height: 100%;
+}
+.R16 ul li:nth-child(3) {
+    background-color: #ccc !important;  
+}
+body .content {
+    background-color: #ccc;
+}
+.mat-card {
+    background: #ccc;
+    height: 1100px;
+}
+.quarterFinal .soccerDetails {
+    background: #ccc;;
+    padding-top:100px;
+}
+.semiFinal .soccerDetails {
+    background: #ccc;;
+    padding-top:210px;
+}
+.final .soccerDetails {
+    background: #ccc;;
+    padding-top:320px;
+}
+.detail {
+    padding:10px;
+}
+.detail span {
+    margin: 0 0 0 10px;
+    vertical-align: middle;
+}
+.detail img {
+    vertical-align: middle;
+}

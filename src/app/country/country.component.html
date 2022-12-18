@@ -1,0 +1,74 @@
+<h2>Country Listing</h2>
+
+<div class="mat-elevation-z8">
+  <div>
+    <a mat-raised-button color="primary" (click)="Openpopup('')" style="margin: 2%">Create New</a>
+  </div>
+  <table mat-table [dataSource]="finaldata" matSort class="mat-elevation-z8">
+   
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> ID</th>
+      <td mat-cell *matCellDef="let element">{{element.id}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="country">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Country</th>
+      <td mat-cell *matCellDef="let element">{{element.country}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="ranking">
+      <th mat-header-cell *matHeaderCellDef> Ranking</th>
+      <td mat-cell *matCellDef="let element">{{element.ranking }}</td>
+    </ng-container>
+    <ng-container matColumnDef="action">
+      <th mat-header-cell *matHeaderCellDef> Action</th>
+      <td mat-cell *matCellDef="let element">
+        <div>
+          <a mat-raised-button (click)="EditCountry(element.id)" color="primary">Edit</a> |
+          <a mat-raised-button (click)="RemoveCountry(element.id)" color="accent">Delete</a>
+        </div>
+      </td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayColums"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayColums;"></tr>
+
+  </table>
+</div>
+<!-- </div>
+<div class="box">
+  <mat-card>
+    <mat-card-title>Country Rankings</mat-card-title>
+    <mat-card-title>
+      <button mat-raised-button color="primary" type="submit">
+        Show Ranks
+      </button>
+    </mat-card-title>
+
+    <table class="table table-striped" *ngIf="getcountries">
+      <tr>
+        <th>Country</th>
+        <th>Ranking</th>
+        <th>Options</th>
+      </tr>
+      <tr *ngFor="let data of getcountries; let i = index;">
+        <td>{{data.country}}</td>
+        <td>{{data.ranking }}</td>
+        <td>
+          <section>
+            <button mat-raised-button color="primary" type="submit">
+              Edit
+            </button>
+            <button mat-raised-button class="delete" color="primary" type="submit">
+              Delete
+            </button>
+          </section>
+        </td>
+      </tr>
+      <tr>
+
+      </tr>
+
+    </table>
+
+  </mat-card>
+</div> -->

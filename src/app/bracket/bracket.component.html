@@ -1,0 +1,88 @@
+<h2>Soccer Dashboard</h2>
+<div class="bracketGenerator">
+    <section class="R16">
+        <mat-card>
+            <mat-card-title>Round of 16</mat-card-title>
+            <div *ngFor="let bracket of getBracket; let i = index;" class="detail">
+                <img [src]="'../../assets/images/' + bracket.country +'.png'" width="20"
+                    height="20" />
+                    <span>{{bracket.country}}</span>
+                <div style="float:right"> {{bracket.goal}}(FT) - {{bracket.point}}(P)</div>
+                <div *ngIf="i % 2 == 1">
+                    <br />
+                    <br />
+                </div>
+            </div>
+
+        </mat-card>
+    </section>
+    <section class="quarterFinal">
+        <mat-card>
+            <mat-card-title>Quarter Final</mat-card-title>
+            <div class="soccerDetails">
+                <div *ngFor="let quater of getQuater; let i = index;" class="detail">
+                    <img [src]="'../../assets/images/' + quater.country +'.png'" width="20" height="20" />
+                    <div style="float:right">{{quater.country}} - {{quater.goal}}(FT) - {{quater.point}}(P)</div>
+                    <div *ngIf="i % 2 == 1" class="divider">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
+
+
+                    </div>
+                </div>
+            </div>
+        </mat-card>
+    </section>
+    <section class="semiFinal">
+        <mat-card>
+            <mat-card-title>Semi Final</mat-card-title>
+            <div class="soccerDetails">
+                <div *ngFor="let semifinal of getSemiFinal; let i = index;" class="detail">
+                    <img [src]="'../../assets/images/' + semifinal.country +'.png'" width="20" height="20" />
+                    <div style="float:right"> {{semifinal.country}} - {{semifinal.goal}}(FT) - {{semifinal.point}}(P)
+                    </div>
+                    <div *ngIf="i % 2 == 1">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </mat-card>
+    </section>
+    <section class="final">
+        <mat-card>
+            <mat-card-title>Final</mat-card-title>
+            <div class="soccerDetails">
+                <div *ngFor="let final of getFinal; let i = index;" class="detail">
+                    <img [src]="'../../assets/images/' + final.country +'.png'" width="20" height="20" />
+                    <div style="float:right">{{final.country}} - {{final.goal}}(FT) - {{final.point}}(P)</div>
+                    <div *ngIf="i % 2 == 1">
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </mat-card>
+    </section>
+</div>

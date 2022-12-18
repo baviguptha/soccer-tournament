@@ -1,0 +1,56 @@
+<h2>Tournament Updation</h2>
+
+<div class="mat-elevation-z8">
+  <div>
+    <a mat-raised-button color="primary" (click)="Openpopup('')" style="margin: 2%">Add</a>
+  </div>
+  <table mat-table [dataSource]="finaldata" matSort class="mat-elevation-z8">
+   
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> ID</th>
+      <td mat-cell *matCellDef="let element">{{element.id}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="country">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Country</th>
+      <td mat-cell *matCellDef="let element">{{element.country}}</td>
+    </ng-container>
+
+    <!-- <ng-container matColumnDef="ranking">
+      <th mat-header-cell *matHeaderCellDef> Ranking</th>
+      <td mat-cell *matCellDef="let element">{{element.ranking }}</td>
+    </ng-container> -->
+    <ng-container matColumnDef="bracket">
+      <th mat-header-cell *matHeaderCellDef> Bracket</th>
+      <td mat-cell *matCellDef="let element">
+        {{element.bracket}}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="goal">
+      <th mat-header-cell *matHeaderCellDef> Goal</th>
+      <td mat-cell *matCellDef="let element">
+        {{element.goal}}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="point">
+      <th mat-header-cell *matHeaderCellDef> Point</th>
+      <td mat-cell *matCellDef="let element">
+        {{element.point}}
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="action">
+      <th mat-header-cell *matHeaderCellDef> Action</th>
+      <td mat-cell *matCellDef="let element">
+        <div>
+          <a mat-raised-button (click)="edit(element.id)" color="primary">Edit</a> |
+          <a mat-raised-button (click)="delete(element.id)" color="accent">Delete</a>
+        </div>
+      </td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayColums"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayColums;"></tr>
+
+  </table>
+</div>

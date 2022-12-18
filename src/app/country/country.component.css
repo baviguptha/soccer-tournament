@@ -1,0 +1,15 @@
+.box {
+    margin: 30px;
+}
+.countryForm h3 {
+    padding-bottom: 20px;
+}
+
+.delete {
+    margin-left: 10px;
+
+}
+.mat-elevation-z8{
+    width: 1200px;
+    margin-bottom: 30px;
+}
